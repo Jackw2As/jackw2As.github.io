@@ -20,6 +20,8 @@ span{
 body {
     padding: 0;
     margin: 0;
+
+    background-color: #181a1b;
 }
 
 h3{
@@ -64,6 +66,8 @@ main section {
     background-repeat: no-repeat;
     background-clip: content-box;
     background-size: cover;
+
+    border-radius: 50px;
 }
 
 .header {
@@ -103,16 +107,17 @@ section .content {
 }
 
 .skills{
-    background-image: url(https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_960_720.png);
+    background-image: url(../img/code.svg);
     
 }
 
 .contact{
-    background-image: url(https://cdn.pixabay.com/photo/2018/07/27/11/06/call-3565779_960_720.jpg);
+    background-image: url(../img/contact.svg);
+    background-position: center ;
 }
 
 .projects{
-    background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg);
+    background-image: url(../img/mesh.svg);
     background-position: center;
 }
 
