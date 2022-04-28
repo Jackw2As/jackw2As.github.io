@@ -1,5 +1,6 @@
 *{
     color: white;
+    border-radius: 5px;
 }
 
 body {
@@ -7,6 +8,11 @@ body {
     margin: 0;
 }
 
+h3{
+    text-align: center;
+    text-decoration:underline;
+    font-size: 16pt;
+}
 nav ul li {
     text-align: center;
     text-decoration: none;
@@ -21,6 +27,13 @@ nav ul{
 nav a {
     text-decoration: none;
     font-weight: bold;
+    padding: 1em;
+    margin-left: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(59, 69, 75);
+    border-radius: 5px;
 }
 
 main{
@@ -48,7 +61,8 @@ main section {
     justify-content: center;
     align-items: center;
 
-    background-color: rgb(0, 2, 116);
+    background-color: rgb(0, 50, 78);
+    border-radius: 0;
 }
 
 .header * {
@@ -93,6 +107,7 @@ textarea {
     color: black;
     padding: 1em 2em;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 input, textarea {
@@ -106,7 +121,7 @@ input, textarea {
 */
 table,
 td {
-    border: 1px solid #fff;
+    /*border: 1px solid #fff; */
     padding: 1em;
     margin: auto;
 }
@@ -124,4 +139,97 @@ tfoot {
     background-color: #fff;
     color: #fff;
     
+}
+
+
+progress{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border: none;
+
+    max-width: 250px;
+    height: 20px;
+}
+
+::-webkit-progress-bar, ::-webkit-progress-value  {
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+
+}
+
+progress[value="1"]::-webkit-progress-value {
+    background-color: red;
+}
+
+progress[value="2"]::-webkit-progress-value {
+    background-color: orange;
+}
+
+progress[value="3"]::-webkit-progress-value {
+    background-color: Yellow;
+}
+
+progress[value="4"]::-webkit-progress-value{
+    background-color: green;
+}
+
+progress[value="5"]::-webkit-progress-value{
+    background-color: blue;
+}
+
+progress[value="1"]::-moz-progress-bar {
+    background-color: red;
+}
+
+progress[value="2"]::-moz-progress-bar {
+    background-color: orange;
+}
+
+progress[value="3"]::-moz-progress-bar {
+    background-color: Yellow;
+}
+
+progress[value="4"]::-moz-progress-bar {
+    background-color: green;
+}
+
+progress[value="5"]::-moz-progress-bar {
+    background-color: blue;
+}
+
+
+/* Skill Style */
+.skill {
+   display: flex;
+   flex-direction: column;
+}
+
+.skill li{
+    text-align: center;
+    display: inline-flex;
+    width: 100%;
+
+    flex-wrap: wrap;
+    align-items: center;
+
+    max-width: 600px;
+
+    margin: auto;
+    margin-top: 1.5em;
+}
+
+.skill li * {
+    margin-left: 2em;
+}
+
+.skill li a {
+    margin-left: 0;
+}
+
+.skills ul{
+    list-style-type: none;
+    margin-top: 3em;
 }
