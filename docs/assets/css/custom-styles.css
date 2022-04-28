@@ -122,7 +122,7 @@ section .content {
 }
 
 .about{
-    background-image: url(../img/jack.jpg);
+    background-image: url(../img/jack.webp);
     background-position: right center;
 
     background-size: cover;
