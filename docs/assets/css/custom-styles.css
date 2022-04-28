@@ -62,7 +62,7 @@ main section {
     
     min-height: 500px;
 
-    background-color: firebrick;
+    background-color: rgb(0, 50, 78);
     background-repeat: no-repeat;
     background-clip: content-box;
     background-size: cover;
@@ -118,13 +118,12 @@ section .content {
 
 .projects{
     background-image: url(../img/mesh.svg);
-    background-position: center;
+    background-size: cover;
 }
 
 .about{
     background-image: url(../img/jack.webp);
     background-position: right center;
-
     background-size: cover;
 }
 
