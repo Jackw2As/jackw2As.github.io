@@ -286,4 +286,7 @@ progress[value="5"]::-moz-progress-bar {
         padding: 1em;
         margin: 1em;
     }
+    h1, h2 {
+        font-size: 16pt;
+    }
 }
