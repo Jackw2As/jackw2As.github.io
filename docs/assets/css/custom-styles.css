@@ -292,3 +292,7 @@ progress[value="5"]::-moz-progress-bar {
         font-size: 16pt;
     }
 }
+
+section, article {
+    padding-top: 10px;
+}
