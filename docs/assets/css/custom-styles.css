@@ -278,4 +278,12 @@ progress[value="5"]::-moz-progress-bar {
     * {
         font-size: small;
     }
+    section header 
+    {
+        padding: 3em 2em 1em 2em;
+    }
+    section .content {
+        padding: 1em;
+        margin: 1em;
+    }
 }
