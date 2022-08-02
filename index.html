@@ -46,7 +46,7 @@
                     <ul class="skill">
                         <h3>Conceptual Concepts</h3>
                         <li>
-                            <label for="skill-i1">MVC Pattern</label>
+                            <label for="skill-i1">MVC</label>
                             <Progress id="skill-i1" max="5" value="5" aria-label="Basic"></Progress>
                             <div>
                             </div>
@@ -71,7 +71,14 @@
                             </div>
                         </li>
                         <li>
-                            <label for="skill-i5">DDD/TDD</label>
+                            <label for="skill-i5">TDD</label>
+                            <Progress id="skill-i5" max="5" value="4" aria-label="Basic"></Progress>
+                            <div>
+                                <a href="#project-2">Blog API</a>
+                            </div>
+                        </li>
+                        <li>
+                            <label for="skill-i5">DDD</label>
                             <Progress id="skill-i5" max="5" value="3" aria-label="Basic"></Progress>
                             <div>
                             </div>
@@ -179,17 +186,14 @@
                 </header>
                 
                 <article id="project-1" class="content">
-                    <h3>Jack’s Portfolio Website</h3>
-    
-                    <img src="">
-    
+                    <h3>Jack’s Portfolio Website</h3>    
                     <p> 
                         A single page responsive website designed with a minimalistic style in mind. This website was created to supplement my CV to employers as well as demonstrate my knowledge of basic web development principles and concepts. Written in CSS and HTML this website was developed in a few hours spread over the course of a month. Update’s passed that have been related to content and/or bug fixing. 
                     </p>
-                    <span><a href="https://github.com/Jackw2As/jackw2As.github.io">Github Link</a> <p> | </p>  <a href="https://jackw2as.github.io/">Test Project</a></span>
+                    <span><a href="https://github.com/Jackw2As/jackw2As.github.io">Github</a> <p> | </p>  <a href="https://jackw2as.github.io/">Project</a></span>
                 </article>
                 
-                <article class="content">
+                <article id="project-2" class="content">
                     <h3>Blog API Project</h3>
 
                     <img src="https://jackw2as.github.io/docs/assets/img/project-blogApi.jpg">
@@ -219,21 +223,25 @@
                         Finally the project contains three testing projects, one for each layer. The testing projects have access to their specific project internally and share the same namespace. 
                         These testing projects, for the most part, were created first with the implementation followed later.
                     </p>
-                    <span><a href="https://github.com/Jackw2As/BlogApi-Project">Github Link</a>
+                    <span><a href="https://github.com/Jackw2As/BlogApi-Project">Github</a>
                 </article>
-                <article class="content">
-                    <h3>Project 3</h3>
+                <article id="project-3" class="content">
+                    <h3>Customer Manager Application</h3>
 
-                    <img src="">
+                    <img src="https://jackw2as.github.io/docs/assets/img/project-customerManager.jpg">
 
                     <p> 
-                        Institutum continetur voluntates explicatur ei vi gi. Nutriri optimum sumamus videtur si quietem at. Semper ii vulgus ac at scioli at quavis nullum deesse. Poni soli ex ha addi quae plus. Nullibi agendis ob ha equidem. Propter gallice iis vigilem sua. Immobile scriptae ab paulatim totumque gi hesterna superest at. Simul deo his credo manet creet omnes. Ii hanc meam data ejus suam in du ante.
+                        A simple Desktop Customer Manager Application built with two different frontend frameworks. One project uses WPF and the other WinUI3(MAUI).
+                        The Customer Manager App consists of custom backend that can store data both inMemory(for testing), and on a File(using json).
 
-                        Fructum cur cui iii liberet sit validas. Hos cui vul appellatur seu exponantur reperiatur. Spectatum apollonio pro profertur qui etc. Falsi eorum ad curam at satis. Quaecumque ea gi et defectibus sequuturum mo commendare. Ut assidere ac expresse contumax collecta. Credidi pro equidem lus judicem accepit sit. Creatorem consuetae effectrix vim iis rea. Immerito ut incertas diversae ha recorder ad gi convenit loquendi. Excaecant procuravi et voluntate mo in existimem id opiniones.
-                        
-                        Veteris ita mutuari sua erumpam nostras quandam aliquem. Ac formatur expertus ei ideamque. Etsi jam idem qui agam puto etc vice atra. Rei progressus cognoscere ibi tur imaginabar aliquamdiu. Jam hac vis putandum posterum est impressa actualis. Satis du to novam summe ha ac. Fingere ordinem vi quasdam veteres et in co. Ut ne mearum negari author. To ea longum odoris obstat gustum factae.
+                        This project contains two seperate UI impelementations with a singular backend providing the features to save and load data. This project supports
+                        multiple data types, including DateTime, Bool, and lists support. The application itself provides several features allowing the user to Save and 
+                        Remove Customer Data. 
+
+                        The File Save system uses a Queue to both read and write data to the file. These features are provided Asynchronously to the database to provent the UI Thread from locking up. 
+                        Despite this the save system remains quite buggy and I'm planning to re-implement this feature in the future.
                     </p>
-                    <span><a href="">Github Link</a> <p> | </p>  <a href="">Test Project</a></span>
+                    <span><a href="https://github.com/Jackw2As/Customer-Manager-App">Github</a> <p>
                 </article>
             </section>
 
