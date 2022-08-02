@@ -192,26 +192,30 @@
                 <article class="content">
                     <h3>Blog API Project</h3>
 
-                    <img src="project-blogApi.jpg">
+                    <img src="../img/project-blogApi.jpg">
 
                     <p> 
                         The blog API project provides a API that other websites can use as a backend for a blog. This api supports the creation of multiple blogs, posts, and comments(on posts).
                         This API is built using Testing Driven Design(XUnit) with Controllers and Models to handle routing, with a Database Service provided by Entity Framework using SQLite for inMemory service.
                         The project itself consists of three layers. A Database layer, Domain layer, and a Application layer(Application). The Application layer contains several data models used to help create, read, update, and delete data stored in the database.
                         The Application Layer has knowledge of both the Domain layer and the Database layer, the Database layer has knowledge of the Domain layer and the Domain layer has no knowledge of either layer.
-                        <br>
+                    </p>
+                    <p>
                         The Application Layer provides the ability for other websites to perform CRUD opperations on blogs, posts, and comments. 
                         These operations require passing specific JSON objects through HTTP Requests. The API supports POST, GET, and Delete Requests.
                         The Application layer also handles the webserver's construction. The project uses Swagger to provide a UI for
-                        <br>
+                    </p>
+                    <p>
                         The Domain Layer provides two abstract classess: a BaseController and BaseModel. These base classes provide some important functionality required by all Controllers and Models.
                         Additionally the Domain Layer provides an Interface for the Database Repository.
-                        <br>
+                    </p>
+                    <p>
                         The Database Layer uses Entity Framework Core to provide a code first database. This database is built using SQLlite and is built to use an 
                         inmemory database(to prevent the creation of database finles on your machine if you choose to test it.)
                         This database uses the Repository pattern and C# generics to interact with the Database it can perform all CRUD opperations required by the application.
                         It also has features to check if an object exists in the database and supports Reading the database from ID as well as selecting multiple values at once with a Query.
-                        <br>
+                    </p>
+                    <p>
                         Finally the project contains three testing projects, one for each layer. The testing projects have access to their specific project internally and share the same namespace. 
                         These testing projects, for the most part, were created first with the implementation followed later.
                     </p>
