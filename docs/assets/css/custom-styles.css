@@ -159,7 +159,9 @@ section .content {
     background-size: cover;
 }
 
-
+img {
+    max-width: 100%;
+}
 
 textarea {
     columns: 20;
