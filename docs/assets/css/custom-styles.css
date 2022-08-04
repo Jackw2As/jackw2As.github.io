@@ -314,13 +314,20 @@ progress[value="5"]::-moz-progress-bar {
     section header 
     {
         padding: 3em 2em 1em 2em;
+        margin: 0;
+        margin-bottom: 3em;
     }
     section .content {
         padding: 1em;
-        margin: 1em;
+        margin: 0;
+        margin-bottom: 1em;
     }
     h1, h2 {
         font-size: 16pt;
+    }
+
+    li div{
+        padding: 0.5em;
     }
     
     footer h5{
